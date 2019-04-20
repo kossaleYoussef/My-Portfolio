@@ -85,14 +85,21 @@ li {
   color: #eff1ed;
   font-weight: bold;
   font-size: 2.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .PageTitle .lineTitle {
+  text-align: center;
   margin-right: 30px;
 }
 
 .PageTitle .lineTitle .fullcol {
-  background-color: #eff1ed;
+  background-color: transparent;
   width: 10px;
   border-radius: 3px;
 }

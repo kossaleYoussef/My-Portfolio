@@ -85,14 +85,21 @@ li {
   color: #eff1ed;
   font-weight: bold;
   font-size: 2.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .PageTitle .lineTitle {
+  text-align: center;
   margin-right: 30px;
 }
 
 .PageTitle .lineTitle .fullcol {
-  background-color: #eff1ed;
+  background-color: transparent;
   width: 10px;
   border-radius: 3px;
 }
@@ -605,9 +612,9 @@ body {
 .Content {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 6fr 10fr 1fr;
-      grid-template-columns: 1fr 6fr 10fr 1fr;
-      grid-template-areas: ". intro Tile .";
+  -ms-grid-columns: 1fr 10fr 1fr;
+      grid-template-columns: 1fr 10fr 1fr;
+      grid-template-areas: ". intro .";
   grid-gap: 1rem;
   overflow: hidden;
   background-color: #01b6ea;
@@ -642,8 +649,6 @@ body {
 }
 
 .AboutTiles {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
   grid-area: Tile;
   margin: 150px 20px 80px 0;
   display: -ms-grid;
@@ -1089,7 +1094,7 @@ body {
   .Content {
     -ms-grid-columns: 1fr 12fr 1fr;
         grid-template-columns: 1fr 12fr 1fr;
-        grid-template-areas: ". intro ." ". Tile .";
+        grid-template-areas: ". intro .";
   }
   .AboutTiles {
     margin: 0 100px 80px;
@@ -1106,6 +1111,7 @@ body {
     -ms-grid-columns: 1fr 8fr 1fr;
         grid-template-columns: 1fr 8fr 1fr;
         grid-template-areas: ". intro ." ". Tile .";
+    padding-bottom: 250px;
   }
   .Intro {
     margin: 10vh 0 -10vh 0;
@@ -1190,7 +1196,7 @@ body {
     -ms-grid-columns: 1fr 8fr 1fr;
         grid-template-columns: 1fr 8fr 1fr;
         grid-template-areas: ". intro ." ". Tile .";
-    padding-bottom: 100px;
+    padding-bottom: 150px;
   }
   .Intro {
     margin: 10vh 0 -10vh 0;
@@ -1293,19 +1299,45 @@ body {
     background-color: #F5F5F5;
   }
   .timeline {
-    margin: 50px 0 50px 13vw;
+    margin: 50px 60px 50px 10vw;
+    position: relative;
   }
   .timeline::before {
     left: 0;
     width: 2px;
     height: 100%;
-    background-color: #01b6ea;
+    background-color: transparent;
+  }
+  .timeline ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .timeline ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     line-height: normal;
     position: relative;
     width: 92%;
     padding: 20px 5vw;
+  }
+  .timeline ul li .Exptime {
+    text-align: center;
   }
   .timeline ul li:nth-child(odd) {
     float: none;
@@ -1324,10 +1356,10 @@ body {
     top: 25px;
     width: 10px;
     height: 10px;
-    background-color: #E31B6D;
+    background-color: transparent;
     border-radius: 50%;
-    -webkit-box-shadow: 0 0 0 3px rgba(227, 27, 109, 0.3);
-            box-shadow: 0 0 0 3px rgba(227, 27, 109, 0.3);
+    -webkit-box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.3);
   }
   .timeline ul li:nth-child(odd)::before {
     content: '';
@@ -1336,10 +1368,10 @@ body {
     top: 25px;
     width: 10px;
     height: 10px;
-    background-color: #E31B6D;
+    background-color: transparent;
     border-radius: 50%;
-    -webkit-box-shadow: 0 0 0 3px rgba(227, 27, 109, 0.3);
-            box-shadow: 0 0 0 3px rgba(227, 27, 109, 0.3);
+    -webkit-box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.3);
   }
   .timeline ul li h3 {
     font-weight: 600;
@@ -1392,8 +1424,8 @@ body {
 
 @media screen and (min-width: 1367px) {
   .Content {
-    -ms-grid-columns: 1fr 6fr 6fr 1fr;
-        grid-template-columns: 1fr 6fr 6fr 1fr;
+    -ms-grid-columns: 1fr 8fr 1fr;
+        grid-template-columns: 1fr 8fr 1fr;
   }
   /*.timeline ul li:nth-child(odd) .Exptime{
         position: absolute;
