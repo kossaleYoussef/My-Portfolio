@@ -617,7 +617,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 200px 10% 100px;
+  padding: 100px 10% 100px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -626,6 +626,7 @@ header {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  background-color: #F3F3F3;
 }
 
 .Project {
@@ -633,10 +634,9 @@ header {
   -ms-flex-preferred-size: 45%;
       flex-basis: 45%;
   height: 22vw;
-  border-radius: 10px;
   overflow: hidden;
-  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.39);
-          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.39);
+  -webkit-box-shadow: 5px 8px 10px 3px rgba(0, 0, 0, 0.233);
+          box-shadow: 5px 8px 10px 3px rgba(0, 0, 0, 0.233);
   margin-bottom: 50px;
 }
 
@@ -647,7 +647,7 @@ header {
   z-index: 3;
   width: 100%;
   height: 2vw;
-  background-color: #DDDDDD;
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
