@@ -479,7 +479,6 @@ li {
 .menu .nav-item.current > a {
   color: #01b6ea;
   font-weight: bold;
-  border-bottom: 0.2rem solid #01b6ea;
 }
 
 .menu .nav-link {
