@@ -354,7 +354,7 @@ body * {
 
 .project-header .backToProjects {
   position: absolute;
-  top: 30px;
+  top: 83px;
   left: 30px;
 }
 
@@ -415,8 +415,10 @@ body * {
   background-color: #01b6ea;
   border: 0;
   color: #eff1ed;
-  padding: 5px 30px;
-  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+  margin-left: 10px;
   border-radius: 3px;
   -webkit-transition: 0.3s;
   transition: 0.3s;

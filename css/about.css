@@ -458,7 +458,7 @@ li {
 .menu-branding .portrait {
   width: 200px;
   height: 200px;
-  background-image: url("../imgs/8.png");
+  background-image: url("../imgs/8.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 50%;
@@ -912,8 +912,10 @@ body {
 .timeline ul li h3 {
   font-weight: 600;
   color: #01b6ea;
-  padding: 0 0 20px 0;
+  padding: 20px;
   margin: 0;
+  background-color: white;
+  border-radius: 5px 5px 0 0;
 }
 
 .timeline ul li .Exptime {
@@ -923,15 +925,25 @@ body {
   border-radius: 15px;
   display: inline-block;
   margin-bottom: 20px;
+  position: relative;
+  top: -5px;
 }
 
 .timeline .ExpContent {
-  padding-bottom: 20px;
   font-size: 1rem;
+  -webkit-box-shadow: 0 5px 8px 5px rgba(128, 128, 128, 0.103);
+          box-shadow: 0 5px 8px 5px rgba(128, 128, 128, 0.103);
 }
 
 .timeline .ExpContent p {
   color: rgba(0, 0, 0, 0.664);
+  background-color: white;
+  padding: 20px;
+  border-radius: 0 0 5px 5px;
+}
+
+.toulstitle {
+  display: none;
 }
 
 .Education .EducationCards {
@@ -1189,6 +1201,24 @@ body {
     width: 100%;
     top: 0;
   }
+  body {
+    background-color: white;
+  }
+  .toulstitle {
+    font-size: 1.8rem;
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .langhead {
+    background-color: white;
+    padding: 50px 0 60px 0;
+    margin-bottom: 0px;
+  }
+  .langhead .Underline {
+    margin-top: 10px;
+    padding: 0;
+  }
   .Content {
     display: -ms-grid;
     display: grid;
@@ -1294,9 +1324,6 @@ body {
     width: 50px;
     height: 50px;
   }
-  .languages .Conf {
-    background-color: #F5F5F5;
-  }
   .timeline {
     margin: 50px 60px 50px 10vw;
     position: relative;
@@ -1332,7 +1359,7 @@ body {
             justify-content: center;
     line-height: normal;
     position: relative;
-    width: 92%;
+    width: 99%;
     padding: 20px 5vw;
   }
   .timeline ul li .Exptime {
@@ -1375,7 +1402,7 @@ body {
   .timeline ul li h3 {
     font-weight: 600;
     color: #01b6ea;
-    padding: 0 0 20px 0;
+    padding: 20px;
     margin: 0;
   }
   .timeline ul li .Exptime {
@@ -1385,7 +1412,6 @@ body {
     border-radius: 15px;
   }
   .timeline .ExpContent {
-    padding: 0 0 20px 5vw;
     font-size: 1.2rem;
   }
   .timeline .ExpContent p {
@@ -1401,7 +1427,7 @@ body {
 }
 
 .Eduhead, .ExpHead, .langhead {
-  font-size: 2.3rem;
+  font-size: 2rem;
 }
 
 .ExpHead {
