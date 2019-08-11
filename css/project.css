@@ -1320,7 +1320,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1328,6 +1330,7 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-align: center;
 }
 
 .ProjectsContainer .ProjectRow-odd {
@@ -1350,6 +1353,19 @@ header {
     color: #eff1ed;
     font-weight: bold;
     font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Project-btn {
+    display: block;
+    font-size: 14px !important;
+  }
+  .Footer {
+    font-size: 1.2rem;
+  }
+  .Footer .namefooter {
+    font-size: 1.2rem;
   }
 }
 
@@ -1379,5 +1395,29 @@ header {
 
 .code-btn::before {
   background: #E31B6D;
+}
+
+.third-btn {
+  border: 2px solid #6cac67 !important;
+  color: #6cac67;
+}
+
+.third-btn::before {
+  background: #6cac67;
+}
+
+.Project-title {
+  border-bottom: 2px solid #01b6ea !important;
+  width: 120px;
+  text-align: center;
+  padding: 4px 10px;
+  margin-bottom: 30px;
+  color: #01b6ea;
+}
+
+.Project-tech {
+  font-weight: bold;
+  margin: 10px 0 0 0;
+  color: #332d2d;
 }
 /*# sourceMappingURL=project.css.map */
