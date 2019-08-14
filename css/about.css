@@ -1195,6 +1195,9 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+  .end, .start {
+    display: none;
+  }
   header {
     height: 70px;
     position: fixed;
@@ -1434,6 +1437,10 @@ body {
   margin-top: 80px;
 }
 
+.ProExperience {
+  margin-bottom: 100px;
+}
+
 .ProExperience .Underline {
   padding-bottom: 50px;
 }
@@ -1463,5 +1470,27 @@ body {
         top: 16px;
         left: -180px;
     }*/
+}
+
+.end, .start {
+  text-align: center;
+  position: relative;
+}
+
+.end span, .start span {
+  background-color: #e9488a;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 30px;
+}
+
+.end {
+  bottom: 30px;
+  margin-top: 50px;
+}
+
+.start {
+  top: 30px;
+  margin-bottom: 50px;
 }
 /*# sourceMappingURL=about.css.map */
