@@ -77,6 +77,10 @@ if (document.body.classList == "contact") {
 
                 document.querySelector('.errortext').classList.add('showError');
                 document.querySelector('.errortext').classList.remove('hideError');
+                setTimeout(function(){
+                    document.querySelector('.errortext').classList.add('hideError');
+                    document.querySelector('.errortext').classList.remove('showError');
+                },3000);
                 this.parentElement.style.animation = "shake 0.5s ease";
 
             }
@@ -97,6 +101,10 @@ if (document.body.classList == "contact") {
 
             document.querySelector('.errortext').classList.add('showError');
             document.querySelector('.errortext').classList.remove('hideError');
+            setTimeout(function(){
+                document.querySelector('.errortext').classList.add('hideError');
+                document.querySelector('.errortext').classList.remove('showError');
+            },3000);
             user.parentElement.style.animation = "shake 0.5s ease";
 
         }
@@ -114,6 +122,10 @@ if (document.body.classList == "contact") {
 
             document.querySelector('.errortext').classList.add('showError');
             document.querySelector('.errortext').classList.remove('hideError');
+            setTimeout(function(){
+                document.querySelector('.errortext').classList.add('hideError');
+                document.querySelector('.errortext').classList.remove('showError');
+            },3000);
             email.parentElement.style.animation = "shake 0.5s ease";
 
 
