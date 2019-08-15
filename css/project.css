@@ -1299,7 +1299,7 @@ header {
   display: grid;
   -ms-grid-columns: 4fr 4fr;
       grid-template-columns: 4fr 4fr;
-  grid-gap: 40px;
+  grid-gap: 20px;
 }
 
 .ProjectsContainer .ProjectRow .Project-Preview, .ProjectsContainer .ProjectRow-odd .Project-Preview {
@@ -1330,7 +1330,7 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: center;
+  text-align: justify;
 }
 
 .ProjectsContainer .ProjectRow-odd {
@@ -1366,6 +1366,12 @@ header {
   }
   .Footer .namefooter {
     font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1367px) {
+  .ProjectsContainer .ProjectRow .Project-Description, .ProjectsContainer .ProjectRow-odd .Project-Description {
+    padding: 0 40px;
   }
 }
 
@@ -1419,5 +1425,14 @@ header {
   font-weight: bold;
   margin: 10px 0 0 0;
   color: #332d2d;
+}
+
+@media screen and (min-width: 769px) and (max-width: 858px) {
+  .Project-btn {
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-right: 5px;
+  }
 }
 /*# sourceMappingURL=project.css.map */
