@@ -146,3 +146,7 @@ if (document.body.classList == "contact") {
 
 
 }
+
+$(function(){
+    new WOW().init();
+});
