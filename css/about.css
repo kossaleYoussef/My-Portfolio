@@ -595,6 +595,7 @@ li {
 
 body {
   background-color: rgba(128, 128, 128, 0.096);
+  overflow-X: hidden;
 }
 
 * {
