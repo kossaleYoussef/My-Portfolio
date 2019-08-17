@@ -1306,6 +1306,15 @@ header {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: preview;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .ProjectsContainer .ProjectRow .Project-Preview img, .ProjectsContainer .ProjectRow-odd .Project-Preview img {
