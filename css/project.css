@@ -516,28 +516,31 @@ li {
 
 @-webkit-keyframes pulse {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgba(1, 182, 234, 0.3);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   70% {
-    -webkit-box-shadow: 0 0 0 70px rgba(1, 182, 234, 0);
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
   }
   100% {
-    -webkit-box-shadow: 0 0 0 0 rgba(1, 182, 234, 0);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
 @keyframes pulse {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgba(1, 182, 234, 0.3);
-            box-shadow: 0 0 0 0 rgba(1, 182, 234, 0.3);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   70% {
-    -webkit-box-shadow: 0 0 0 70px rgba(1, 182, 234, 0);
-            box-shadow: 0 0 0 70px rgba(1, 182, 234, 0);
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
   }
   100% {
-    -webkit-box-shadow: 0 0 0 0 rgba(1, 182, 234, 0);
-            box-shadow: 0 0 0 0 rgba(1, 182, 234, 0);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
@@ -1093,28 +1096,31 @@ li {
 
 @-webkit-keyframes pulse {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgba(1, 182, 234, 0.3);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   70% {
-    -webkit-box-shadow: 0 0 0 70px rgba(1, 182, 234, 0);
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
   }
   100% {
-    -webkit-box-shadow: 0 0 0 0 rgba(1, 182, 234, 0);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
 @keyframes pulse {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgba(1, 182, 234, 0.3);
-            box-shadow: 0 0 0 0 rgba(1, 182, 234, 0.3);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   70% {
-    -webkit-box-shadow: 0 0 0 70px rgba(1, 182, 234, 0);
-            box-shadow: 0 0 0 70px rgba(1, 182, 234, 0);
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
   }
   100% {
-    -webkit-box-shadow: 0 0 0 0 rgba(1, 182, 234, 0);
-            box-shadow: 0 0 0 0 rgba(1, 182, 234, 0);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
@@ -1268,6 +1274,14 @@ li {
 
 .btn:hover::before {
   height: 360%;
+}
+
+.menu-Indicator {
+  color: #20cdfe;
+  position: absolute;
+  right: 22px;
+  top: 70px;
+  font-size: 2rem;
 }
 
 * {
