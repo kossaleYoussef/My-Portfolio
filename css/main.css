@@ -695,18 +695,15 @@ li {
   height: 360%;
 }
 
-.menu-Indicator, .menu-Indicator-next {
-  color: rgba(218, 245, 123, 0.856);
-  position: absolute;
-  right: 26px;
-  font-size: 2rem;
-}
-
 .menu-Indicator {
-  top: 50px;
+  color: #20cdfe;
+  position: absolute;
+  right: 9px;
+  top: 30px;
+  font-size: 23px;
 }
 
-.menu-Indicator-next {
-  top: 62px;
+[class$="close"] .menu-Indicator {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */

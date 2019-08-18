@@ -1279,9 +1279,13 @@ li {
 .menu-Indicator {
   color: #20cdfe;
   position: absolute;
-  right: 22px;
-  top: 70px;
-  font-size: 2rem;
+  right: 9px;
+  top: 30px;
+  font-size: 23px;
+}
+
+[class$="close"] .menu-Indicator {
+  display: none;
 }
 
 * {
