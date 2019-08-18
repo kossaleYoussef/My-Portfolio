@@ -344,8 +344,6 @@ li {
   z-index: 5;
   -webkit-box-shadow: 0 0 0 rgba(1, 182, 234, 0.4);
           box-shadow: 0 0 0 rgba(1, 182, 234, 0.4);
-  -webkit-animation: pulse 2s infinite;
-          animation: pulse 2s infinite;
 }
 
 .menu-btn:hover {

@@ -344,8 +344,6 @@ li {
   z-index: 5;
   -webkit-box-shadow: 0 0 0 rgba(1, 182, 234, 0.4);
           box-shadow: 0 0 0 rgba(1, 182, 234, 0.4);
-  -webkit-animation: pulse 2s infinite;
-          animation: pulse 2s infinite;
 }
 
 .menu-btn:hover {
@@ -725,6 +723,7 @@ body {
           align-items: center;
   padding: 20px;
   color: rgba(0, 0, 0, 0.767);
+  overflow-y: hidden;
 }
 
 .Skills .Skill .skillimg {
@@ -773,6 +772,7 @@ body {
       grid-template-areas: ". head head head ." ". more conf less .";
   text-align: center;
   color: rgba(0, 0, 0, 0.767);
+  overflow-y: hidden;
 }
 
 .languages .More,
@@ -780,6 +780,7 @@ body {
 .languages .less {
   padding: 10px;
   border-bottom: 1px solid #01b6ea;
+  overflow-y: hidden;
   background-color: white;
   min-width: 200px;
   -webkit-box-shadow: 0 5px 8px 5px rgba(128, 128, 128, 0.103);
@@ -863,6 +864,10 @@ body {
   width: 2px;
   height: 100%;
   background-color: #01b6ea;
+}
+
+.timeline ul {
+  overflow-x: hidden;
 }
 
 .timeline ul li {
