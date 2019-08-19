@@ -1281,7 +1281,11 @@ li {
   position: absolute;
   right: 9px;
   top: 30px;
-  font-size: 23px;
+  font-size: 25px;
+}
+
+.menu-Indicator-2 {
+  top: 33px;
 }
 
 [class$="close"] .menu-Indicator {
@@ -1333,6 +1337,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  z-index: 2;
 }
 
 .ProjectsContainer .ProjectRow .Project-Preview img, .ProjectsContainer .ProjectRow-odd .Project-Preview img {
@@ -1358,7 +1363,6 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: justify;
-  z-index: -1;
 }
 
 .ProjectsContainer .ProjectRow-odd {

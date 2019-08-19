@@ -700,7 +700,11 @@ li {
   position: absolute;
   right: 9px;
   top: 30px;
-  font-size: 23px;
+  font-size: 25px;
+}
+
+.menu-Indicator-2 {
+  top: 42px;
 }
 
 [class$="close"] .menu-Indicator {
