@@ -457,7 +457,7 @@ li {
 .menu-branding .portrait {
   width: 200px;
   height: 200px;
-  background-image: url("../imgs/me.jpg");
+  background-image: url("../imgs/PortfolioImg.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 50%;
@@ -1037,7 +1037,7 @@ li {
 .menu-branding .portrait {
   width: 200px;
   height: 200px;
-  background-image: url("../imgs/me.jpg");
+  background-image: url("../imgs/PortfolioImg.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 50%;
