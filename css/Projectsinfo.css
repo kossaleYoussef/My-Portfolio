@@ -106,6 +106,7 @@ li {
 
 .PageTitle .lineTitle .upperPart {
   padding-left: 20px;
+  text-shadow: 3px 3px #0192bc;
 }
 
 .PageTitle .lineTitle .lowerPart {
